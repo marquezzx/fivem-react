@@ -2,6 +2,8 @@
 
 Template de React.JS e Tailwind para criação de resources para FiveM
 
+[Configuração](#configuração)
+
 ## Configuração
 
 A configuração é simples, para funcionar apenas altere resName em `src/config/config.js` para funcionar perfeitamente
