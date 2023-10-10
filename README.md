@@ -60,4 +60,4 @@ react/prop-types - Desligado
 ```
 
 ## Suporte
-Entre em [contato](https://github.com/marquezzx) comigo para obter suporte.
+Entre em contato comigo pelo Discord (@marquezdev) para obter suporte.
