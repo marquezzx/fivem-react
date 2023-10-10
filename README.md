@@ -12,13 +12,13 @@ Template de React.JS e Styled Components para criação de resources para FiveM
 Faça a instalação do repositório, abra o Prompt de Comando no caminho do arquivo
 Comandos de execução:
 
-# NPM
+### NPM
 ```sh
 npm install
 npm run dev
 ```
 
-# YARN
+### YARN
 ```sh
 yarn
 yarn dev
