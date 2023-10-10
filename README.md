@@ -2,12 +2,7 @@
 
 Template de React.JS e Tailwind para criação de resources para FiveM
 
-> Tópicos:
-[Configuração](#configuração)
-[Hooks](#hooks)
-[Instalação](#instalação)
-[.eslintrc.cjs](#eslint)
-[Suporte](#suporte)
+> Tópicos: [Configuração](#configuração), [Hooks](#hooks), [Instalação](#instalação), [.eslintrc.cjs](#eslint), [Suporte](#suporte)
 
 ## Configuração
 
