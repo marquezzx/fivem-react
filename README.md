@@ -4,8 +4,10 @@ Template de React.JS e Styled Components para criação de resources para FiveM
 
 ## Custom Hooks
 
-<!-- - [Installation](#installation)
-- [Usage](#usage) -->
+### useFetch
+```javascript
+console.log(a)
+```
 
 ## Instalação
 
