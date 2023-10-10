@@ -1,7 +1,6 @@
-import { Menu } from "./components/Menu/Menu";
+import { Menu } from "./components/Menu";
 import { useEffect } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import { GlobalStyle } from "./style/GlobalStyle";
 
 export default function App() {
   const navigate = useNavigate()
@@ -15,10 +14,9 @@ export default function App() {
     return () => {
       window.removeEventListener("message", eventListener);
     };
-  }, []);
+  });
   return (
     <>
-      <GlobalStyle/>
       <Routes>
         <Route path="/" element={<></>}/>
         <Route path="/ui" element={<Menu/>}/>
