@@ -2,13 +2,18 @@
 
 Template de React.JS e Tailwind para criação de resources para FiveM
 
+> Tópicos:
 [Configuração](#configuração)
+[Hooks](#hooks)
+[Instalação](#instalação)
+[.eslintrc.cjs](#eslint)
+[Suporte](#suporte)
 
 ## Configuração
 
 A configuração é simples, para funcionar apenas altere resName em `src/config/config.js` para funcionar perfeitamente
 
-## Custom Hooks
+## Hooks
 
 ### useFetch
 Utilização:
