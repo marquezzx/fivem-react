@@ -1,6 +1,10 @@
-# Boilerplate FiveM React (Javascript)
+# Boilerplate FiveM React & Tailwind (Javascript)
 
-Template de React.JS e Styled Components para criação de resources para FiveM
+Template de React.JS e Tailwind para criação de resources para FiveM
+
+## Configuração
+
+A configuração é simples, para funcionar apenas altere resName em `config/config.js` para funcionar perfeitamente
 
 ## Custom Hooks
 
