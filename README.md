@@ -15,10 +15,12 @@ Utilização:
 ```javascript
 // callbackName é o callback que vai ser chamado no client-side
 // payload pode ser qualquer informação enviada para o client-side, pode ser um objeto, uma array, uma string, qualquer valor
-useFetch("callbackName", payload).then(response => console.log(response));
+// awaitResponse é um booleano, ele aguarda um valor retornado pelo client
+useFetch("callbackName", payload, awaitResponse).then(response => console.log(response));
 ```
 ```lua
--- é necessário sempre retornar uma response, mesmo sendo um valor nulo ou indefinido, pode retornar response({})
+-- é necessário sempre retornar uma response caso awaitResponse seja enviado como true na função acima
+-- mesmo sendo um valor nulo ou indefinido, pode retornar response({})
 RegisterNUICallback("callbackName", function(payload, response)
   print("Recebido: "..json.encode(payload))
   response("Retornado")
