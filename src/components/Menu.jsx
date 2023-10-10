@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { useFetch } from "../hooks/useFetch";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "../hooks/useNavigate";
 export const Menu = () => {
-  const navigate = useNavigate()
   useEffect(() => {
     const handleKeyDown = ({ keyCode }) => {
       if (keyCode === 27) close();
@@ -14,7 +13,7 @@ export const Menu = () => {
   });
   function close() {
     useFetch("removeFocus").then(response => {
-      if (response.data) navigate("/")
+      if (response) useNavigate("/")
     });
   }
   return (

@@ -1,13 +1,14 @@
 import { Menu } from "./components/Menu";
 import { useEffect } from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { useNavigate } from "./hooks/useNavigate";
 
 export default function App() {
-  const navigate = useNavigate()
   useEffect(() => {
     const eventListener = ({ data }) => {
       if (data) {
-        navigate(data.setVisible ? "/ui" : "/")
+        if(typeof data.setVisible === "boolean") useNavigate(data.setVisible ? "/ui" : "/")
+        console.log("Received:",data)
       }
     };
     window.addEventListener("message", eventListener);
