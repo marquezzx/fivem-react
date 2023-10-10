@@ -18,9 +18,9 @@ RegisterNUICallback("callbackName", function(payload)
   print("Recebido: "..json.encode(payload))
 end)
 
-RegisterNUICallback("callbackName", function(payload, cb)
+RegisterNUICallback("callbackName", function(payload, response)
   print("Recebido: "..json.encode(payload))
-  cb("Retornado")
+  response("Retornado")
 end)
 ```
 
