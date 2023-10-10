@@ -45,5 +45,15 @@ yarn
 yarn dev
 ```
 
+## eslint
+
+São definidas por padrão no `.eslintrc.cjs` as regras: 
+
+`react-refresh/only-export-components` - Aviso
+`react-hooks/rules-of-hooks` - Desligado
+`react-hooks/exhaustive-deps` - Desligado
+`no-unused-vars` - Desligado
+`react/prop-types` - Desligado
+
 ## Suporte
 Entre em [contato](https://github.com/marquezzx) comigo para obter suporte.
