@@ -1,21 +1,28 @@
-# FiveM React (Javascript) Boilerplate
+# Boilerplate FiveM React (Javascript)
 
-A template of ReactJS for FiveM interfaces. 
+Template de React.JS e Styled Components para criação de resources para FiveM
 
-## Table of Contents
+## Custom Hooks
 
-- [Installation](#installation)
-- [Usage](#usage)
+<!-- - [Installation](#installation)
+- [Usage](#usage) -->
 
-## Installation
+## Instalação
 
-Download to your project directory, it will be inside 'node-modules':
+Faça a instalação do repositório, abra o Prompt de Comando no caminho do arquivo
+Comandos de execução:
 
+# NPM
 ```sh
-npm install fivem-react-boilerplate
-yarn add fivem-react-boilerplate
+npm install
+npm run dev
 ```
 
-## Support
+# YARN
+```sh
+yarn
+yarn dev
+```
 
-Please [contact me](https://github.com/marquezzx) for support.
+## Suporte
+Entre em [contato](https://github.com/marquezzx) comigo para obter suporte.
