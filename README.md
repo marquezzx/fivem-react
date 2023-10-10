@@ -18,7 +18,7 @@ Utilização:
 useFetch("callbackName", payload).then(response => console.log(response));
 ```
 ```lua
--- é necessário sempre retornar uma response, mesmo sendo um valor nulo ou indefinido, pode retornar uma table vazia ( response({}) )
+-- é necessário sempre retornar uma response, mesmo sendo um valor nulo ou indefinido, pode retornar response({})
 RegisterNUICallback("callbackName", function(payload, response)
   print("Recebido: "..json.encode(payload))
   response("Retornado")
