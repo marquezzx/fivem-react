@@ -16,7 +16,8 @@ Utilização:
 // callbackName é o callback que vai ser chamado no client-side
 // payload pode ser qualquer informação enviada para o client-side, pode ser um objeto, uma array, uma string, qualquer valor
 // awaitResponse é um booleano, ele aguarda um valor retornado pelo client
-useFetch("callbackName", payload, awaitResponse).then(response => console.log(response));
+useFetch("callbackName", payload);
+useFetch("callbackName", payload, true).then(response => console.log(response));
 ```
 ```lua
 -- é necessário sempre retornar uma response caso awaitResponse seja enviado como true na função acima
